@@ -634,7 +634,7 @@ class RecentPostsAPI:
         print("\nמעלה את קובץ האינדקס הראשי...")
         data = {
             "token": yemot_api.token,
-            "what": "ivr2:/2/000.tts",
+            "what": "ivr2:/2/M1000.tts",
             "contents": clean_text_for_tts(index_text)
         }
         
